@@ -3,6 +3,7 @@ from .modules.exception import UpYunClientException
 import json
 
 
+
 class UpYunMultiUploader(object):
     """断点续传
     :param rest: upyun rest 实例
